@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biblioteca - UNB</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='imagens/favicon.png') }}">
+
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>Bem-vindo á Biblioteca </h1>
+
+    <div class="grid">
+      
+      <a href="/cadastro_cliente" class="btn-with-icon">
+        <img src="{{ url_for('static', filename='imagens/cliente1.png') }}" alt="Cadastrar Cliente" class="icon-img">
+        <span>Cadastrar Cliente</span>
+      </a>
+
+      <a href="/cadastro_livro" class="btn-with-icon">
+        <img src="{{ url_for('static', filename='imagens/livros.png') }}" alt="Cadastrar Livro" class="icon-img">
+        <span>Cadastrar Livro</span>
+      </a>
+
+      <a href="/locacao" class="btn-with-icon">
+        <img src="{{ url_for('static', filename='imagens/locacao.png') }}" alt="Locar Livro" class="icon-img">
+        <span>Locar Livro</span>
+      </a>
+
+      <a href="/devolucao" class="btn-with-icon">
+        <img src="{{ url_for('static', filename='imagens/devolucao.png') }}" alt="Devolver Livro" class="icon-img">
+        <span>Devolver Livro</span>
+      </a>
+      
+    </div>
+
+  </main>
+</body>
+
+</html>

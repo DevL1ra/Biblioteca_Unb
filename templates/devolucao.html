@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Devolver Livro</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='imagens/favicon.png') }}">
+</head>
+<body>
+  <main class="container">
+    <h2>Devolver Livro</h2>
+    <form method="POST" class="form">
+      <label for="livro">Selecione o livro a devolver:</label>
+      <select name="livro" id="livro" required>
+        {% for loc in locacoes %}
+          <option value="{{ loc.livro }}">{{ loc.livro }} - {{ loc.cliente }}</option>
+        {% endfor %}
+      </select>
+      <button type="submit">Devolver</button>
+    </form>
+    <a href="/" class="link-voltar">Voltar ao Início</a>
+  </main>
+</body>
+</html>

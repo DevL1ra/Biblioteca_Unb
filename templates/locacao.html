@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Locação de Livro</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='imagens/favicon.png') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Fazer Locação</h1>
+    <form method="POST">
+      <label>Cliente:</label>
+      <select name="cliente" required>
+        {% for cliente in clientes %}
+          <option value="{{ cliente.nome }}">{{ cliente.nome }}</option>
+        {% endfor %}
+      </select>
+
+      <label>Livro:</label>
+      <select name="livro" required>
+        {% for livro in livros %}
+          <option value="{{ livro.nome }}">{{ livro.nome }}</option>
+        {% endfor %}
+      </select>
+
+      <label>Data de Retirada:</label>
+      <input type="date" name="retirada" required>
+
+      <label>Data de Entrega:</label>
+      <input type="date" name="entrega" required>
+
+      <button type="submit">Confirmar Locação</button>
+    </form>
+    <a href="/" class="link-voltar">Voltar ao Início</a>
+  </div>
+</body>
+</html>

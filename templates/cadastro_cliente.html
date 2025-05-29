@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='imagens/favicon.png') }}">
+</head>
+
+  <body>
+
+    <div class="container">
+      <h1>Cadastro de Cliente</h1>
+      <form method="POST">
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+
+        <label>Telefone:</label>
+        <input type="text" name="telefone" required>
+
+        <label>Idade:</label>
+        <input type="number" name="idade" required>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+      <a href="/" class="link-voltar">Voltar ao Início</a>
+    </div>
+
+  </body>
+</html>

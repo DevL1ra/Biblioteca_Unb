@@ -1,0 +1,139 @@
+{
+    "clientes": [
+        {
+            "nome": "RENAN FIGUEIREDO DE LIRA LIMA",
+            "telefone": "(11) 94878-2614",
+            "idade": "34"
+        },
+        {
+            "nome": "kelvin",
+            "telefone": "(11) 9 1227-1263",
+            "idade": "20"
+        },
+        {
+            "nome": "Caio",
+            "telefone": "11956671227",
+            "idade": "21"
+        },
+        {
+            "nome": "Felipe",
+            "telefone": "(11) 9 1227-1263",
+            "idade": "39"
+        },
+        {
+            "nome": "Italo",
+            "telefone": "11956671227",
+            "idade": "23"
+        }
+    ],
+    "livros": [
+        {
+            "nome": "fenomeno",
+            "autor": "ruan"
+        },
+        {
+            "nome": "K-Alpha",
+            "autor": "van gogh"
+        },
+        {
+            "nome": "Swiss Power",
+            "autor": "2E3V5N"
+        },
+        {
+            "nome": "cafe com Deus pai",
+            "autor": "mg"
+        },
+        {
+            "nome": "codigo da vinci",
+            "autor": "van gogh"
+        },
+        {
+            "nome": "azul da cor mar",
+            "autor": "blue"
+        },
+        {
+            "nome": "monster rager",
+            "autor": "dracula"
+        },
+        {
+            "nome": "sonho meu",
+            "autor": "algar"
+        },
+        {
+            "nome": "tio han",
+            "autor": "pong"
+        }
+    ],
+    "locacoes": [
+        {
+            "cliente": "RENAN FIGUEIREDO DE LIRA LIMA",
+            "livro": "fenomeno",
+            "retirada": "2025-05-20",
+            "entrega": "2025-05-31",
+            "devolvido": true
+        },
+        {
+            "cliente": "RENAN FIGUEIREDO DE LIRA LIMA",
+            "livro": "K-Alpha",
+            "retirada": "2025-05-20",
+            "entrega": "2025-05-21",
+            "devolvido": true
+        },
+        {
+            "cliente": "RENAN FIGUEIREDO DE LIRA LIMA",
+            "livro": "fenomeno",
+            "retirada": "2025-05-20",
+            "entrega": "2025-05-21",
+            "devolvido": true
+        },
+        {
+            "cliente": "RENAN FIGUEIREDO DE LIRA LIMA",
+            "livro": "fenomeno",
+            "retirada": "2025-05-20",
+            "entrega": "2025-05-21",
+            "devolvido": true
+        },
+        {
+            "cliente": "RENAN FIGUEIREDO DE LIRA LIMA",
+            "livro": "fenomeno",
+            "retirada": "2025-05-20",
+            "entrega": "2025-05-20",
+            "devolvido": true
+        },
+        {
+            "cliente": "kevin",
+            "livro": "fenomeno",
+            "retirada": "2025-05-22",
+            "entrega": "2025-05-23",
+            "devolvido": true
+        },
+        {
+            "cliente": "FE",
+            "livro": "fenomeno",
+            "retirada": "2025-05-20",
+            "entrega": "2025-05-21",
+            "devolvido": true
+        },
+        {
+            "cliente": "5TA36",
+            "livro": "Swiss Power",
+            "retirada": "2025-05-20",
+            "entrega": "2025-05-22",
+            "devolvido": true
+        },
+        {
+            "cliente": "Caio",
+            "livro": "sonho meu",
+            "retirada": "2025-05-21",
+            "entrega": "2025-05-30",
+            "devolvido": false
+        },
+        {
+            "cliente": "Caio",
+            "livro": "cafe com Deus pai",
+            "retirada": "2025-05-30",
+            "entrega": "2025-05-13",
+            "devolvido": true
+        }
+    ]
+}
