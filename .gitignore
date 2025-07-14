@@ -1,0 +1,13 @@
+# Arquivos de dados locais que não devem ir para o repositório
+dados.json
+
+# Pastas e arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais (se você usa um, o que é recomendado)
+venv/
+.venv/
+
+# Ignorar arquivos de log, se existirem
+*.log
